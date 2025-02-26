@@ -1,0 +1,1 @@
+This repository was created to show how amazing exploring the Republic of Macedonia is. All files are public where you can access all styles used as well as the HTML format and images. If you have questions feel free to ask thank you for looking!
