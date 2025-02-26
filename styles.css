@@ -1,0 +1,241 @@
+.hero {
+    background: url('images/Alexander-Hero.jpg') no-repeat center center/cover;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 55%;
+}
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8); /* Slightly less transparent white */
+    padding: 20px 40px;
+    border-radius: 20px;
+    color: black; /* Ensures text is readable */
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;  /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    text-transform: uppercase; /* Optional: Make all letters uppercase */
+}
+
+.hero p {
+    font-size: 24px;  /* Make subtitle bigger */
+    font-weight: 600; /* Slightly bold */
+    letter-spacing: 1px; /* Add slight spacing for a refined look */
+}
+
+.intro {
+    display: flex;
+    justify-content: center; /* Centers the box */
+    align-items: center; /* Aligns it vertically */
+    text-align: center; /* Centers text */
+    padding: 50px 20px; /* Adds space inside the section */
+    background: #f4f4f4; /* Light background */
+}
+
+.intro-box {
+    background: rgba(255, 255, 255, 0.9); /* Light white background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    max-width: 800px; /* Restricts width */
+    width: 90%; /* Makes it responsive */
+    text-align: left; /* Aligns text to the left */
+}
+
+.intro h2 {
+    font-size: 28px;
+    color: #333; /* Darker text for contrast */
+    text-align: center; /* Center the heading */
+}
+
+.intro p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Adds space before the button */
+}
+
+.find-tours {
+    background: linear-gradient(135deg, #ff5733, #ff914d); /* Orange gradient */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px; /* Rounded edges */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0; /* Centers the button */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
+}
+
+/* Hover Effect */
+.find-tours:hover {
+    background: linear-gradient(135deg, #e04e2c, #ff5f4d); /* Darker orange on hover */
+    transform: scale(1.05); /* Slight increase in size */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Click Effect */
+.find-tours:active {
+    transform: scale(0.95); /* Slight shrink on click */
+}
+
+.tour-title {
+    font-size: 22px; /* Increase font size */
+    font-weight: bold; /* Make it bolder */
+    text-align: center;
+    color: #333; /* Darker color for contrast */
+    margin-top: 10px; /* Add some spacing from the image */
+}
+
+.description-section {
+    text-align: center; /* Centers the text */
+    background: linear-gradient(135deg, #f4f4f4, #e8e8e8); /* Adds a subtle gradient */
+    padding: 40px; /* Adds spacing */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds depth */
+    max-width: 900px; /* Prevents text from stretching  wide */
+    margin: 40px auto; /* Centers it on the page */
+}
+
+.description-section h2 {
+    font-size: 26px; /* Increases heading size */
+    font-weight: bold;
+    color: #222; /* Darker shade for contrast */
+    margin-bottom: 15px;
+}
+
+.description-section p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center; /* Centers the box */
+    align-items: center;
+    padding: 50px 20px;
+    background: #f4f4f4; /* Light gray background */
+}
+
+.testimonial-box {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 700px;
+    width: 90%;
+    text-align: center;
+}
+
+.testimonial-img {
+    width: 100px; /* Smaller profile image */
+    height: 100px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.testimonial-quote {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000; 
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4; /* Light background */
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-btn {
+    background: linear-gradient(135deg, #ff5733, #ff914d);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: linear-gradient(135deg, #e04e2c, #ff5f4d);
+    transform: scale(1.05);
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-link {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #555;
+    transition: 0.3s;
+}
+
+.social-link:hover {
+    color: #ff5733;
+    transform: scale(1.2);
+}
+
